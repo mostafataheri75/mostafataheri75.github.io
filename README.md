@@ -1,126 +1,49 @@
-# Personal Website
+# Mostafa Taheri's Personal Website
 
-This is my personal website built with Hugo, a fast and modern static site generator. The site features a clean, responsive design powered by Tailwind CSS and uses my own theme, CareerCanvas.
+This repository contains the source code for my personal portfolio website and blog, which is live at [mostafataheri75.github.io](https://mostafataheri75.github.io/).
 
-## 🚀 Features
+## 👨‍💻 About Me
 
-- Built with Hugo static site generator
-- Uses CareerCanvas theme (my own creation)
-- Styled with Tailwind CSS
-- Responsive design with dark mode support
-- Typography plugin for better content formatting
-- Custom layouts and templates
-- Image galleries for project showcases
-- Multilingual support (English/French)
-- Interactive skills and experience sections
+I am a **Quantum Information PhD candidate and AI Researcher** based in Lyon, France, with 10 years of experience in computational science. Currently, I am pioneering LLM-powered mathematical reasoning and high-throughput AI pipelines at Inria and ENS de Lyon.
 
-## 🛠️ Prerequisites
+My core areas of expertise include:
+- LLM Engineering & vLLM
+- Graph Neural Networks
+- Quantum Information Theory
+- Algorithmic Optimization
+- High-Performance Computing
 
-Before you begin, ensure you have the following installed:
-- [Hugo](https://gohugo.io/installation/) (Extended version recommended)
-- [Node.js](https://nodejs.org/) (for npm packages)
-- [npm](https://www.npmjs.com/) (comes with Node.js)
+## 🛠️ About This Project
 
-## 🏗️ Installation
+This site is built with modern web technologies:
+- **[Hugo](https://gohugo.io/)**: A fast and flexible static site generator
+- **[Tailwind CSS](https://tailwindcss.com/)**: For responsive, utility-first styling
+- **CareerCanvas Theme**: A custom aesthetic tailored for technical and engineering portfolios
+
+### Run Locally
+
+To explore or run the code locally:
 
 1. Clone the repository:
-```bash
-git clone --recurse-submodules https://github.com/felipecordero/felipecordero.github.io.git
-cd felipecordero.github.io
-```
+   ```bash
+   git clone https://github.com/mostafataheri75/mostafataheri75.github.io.git
+   cd mostafataheri75.github.io
+   ```
 
-2. Install npm dependencies:
-```bash
-npm install
-```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-## 🚀 Development
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
 
-To start the development server:
+The site will be accessible at `http://localhost:1313`.
 
-```bash
-npm run dev
-```
+---
 
-This command runs `hugo server -D`, which starts a local server and includes draft content (content with `draft: true` in the front matter). This is useful for previewing unpublished or in-progress content during development.
-
-The site will be available at `http://localhost:1313`
-
-For the contact form and Pexels hero backgrounds to work locally, create a `config.local.toml` (gitignored) in the project root:
-
-```toml
-[params]
-  pexelsapikey = "your_pexels_api_key"
-  formspreeendpoint = "https://formspree.io/f/your_form_id"
-```
-
-Run with `hugo server --config config.toml,config.local.toml` (or use `./dev.sh` if it merges both).
-
-## 🏗️ Building
-
-To build the site for production, you need to:
-
-1. Build the CSS with Tailwind:
-```bash
-npm run build:css
-```
-
-2. Build the site with Hugo:
-```bash
-npm run build
-```
-
-Or you can do both in one command:
-```bash
-npm run build:css && npm run build
-```
-
-The built site will be in the `public/` directory.
-
-Note: The CSS build step is necessary because the site uses Tailwind CSS, which needs to be processed to generate the final CSS file with only the used styles.
-
-### Deploying
-
-For the contact form and Pexels backgrounds, set at build time: `HUGO_PARAMS_PEXELSAPIKEY`, `HUGO_PARAMS_FORMSPREEENDPOINT` (no underscores in the param name).
-
-## 📁 Project Structure
-
-- `assets/` - Contains source files for CSS, JavaScript, and other assets
-- `content/` - Contains the content of your site
-- `static/` - Contains static files like images
-- `themes/careercanvas/` - Contains the CareerCanvas theme
-- `config.toml` - Main configuration file
-- `tailwind.config.js` - Tailwind CSS configuration
-
-## 🛠️ Technologies Used
-
-- [Hugo](https://gohugo.io/) - Static site generator
-- [Tailwind CSS](https://tailwindcss.com/) - Utility-first CSS framework
-- [@tailwindcss/typography](https://tailwindcss.com/docs/typography-plugin) - Typography plugin for Tailwind CSS
-- [CareerCanvas](https://github.com/felipecordero/careercanvas) - Custom Hugo theme
-
-## 👨‍💻 About the Theme
-
-The CareerCanvas theme is my own creation, designed specifically for technical and engineering portfolios. It features:
-- Modern, responsive design
-- Dark mode support
-- Interactive components
-- Image galleries
-- Multilingual support
-- Optimized for technical content
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/felipecordero/felipecordero.github.io/issues).
-
-## 📫 Contact
-
-For any questions or suggestions, please open an issue in the GitHub repository or visit [felipecordero.com](https://felipecordero.com).
-
-## 🚨 Important Note
-
-The built CSS file (`themes/careercanvas/static/css/main.css`) is managed by the theme submodule and should not be committed separately in this repository. If you need to update the CSS, please do so in the theme repository and then update the submodule here. 
+📫 **Connect with me:**
+- [LinkedIn](https://linkedin.com/in/mostafataheri75/)
+- [Google Scholar](https://scholar.google.com/citations?user=176yyr4AAAAJ&hl=en)
