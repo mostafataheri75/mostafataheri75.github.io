@@ -1,5 +1,5 @@
 # Hugo Site Configuration
-baseURL = "https://mostafataheri.info"
+baseURL = "https://mostafataheri75.github.io/"
 languageCode = "en-us"
 title = "Mostafa Taheri"
 theme = "careercanvas"
