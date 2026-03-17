@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Mostafa Taheri</title>
+    <link>http://localhost:1313/projects/</link>
+    <description>Recent content in Projects on Mostafa Taheri</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Inria / ENS de Lyon</title>
+      <link>http://localhost:1313/projects/inria/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/inria/</guid>
+      <description>&lt;h2 id=&#34;ai-driven-mathematical-reasoning--theorem-proving&#34;&gt;AI-Driven Mathematical Reasoning &amp;amp; Theorem Proving&lt;/h2&gt;&#xA;&lt;p&gt;At Inria and ENS de Lyon, my work focused on pioneering the combination of Large Language Models (LLMs) and Graph Neural Networks to automate complex mathematical proofs.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Key Projects &amp;amp; Accomplishments:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Designed and trained custom Graph Neural Networks using PyTorch Geometric to optimize proof search spaces.&lt;/li&gt;&#xA;&lt;li&gt;Implemented an LLM-powered evolutionary algorithm designed to autonomously generate optimization structures.&lt;/li&gt;&#xA;&lt;li&gt;Built high-throughput LLM pipelines on A100 GPUs using vLLM for models such as Qwen and Mistral.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;em&gt;(Add more detailed project descriptions, code snippets, or images here&amp;hellip;)&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Quantum Information Theory Group</title>
+      <link>http://localhost:1313/projects/qit/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/qit/</guid>
+      <description>&lt;h2 id=&#34;fundamental-limits-of-quantum-information-storage&#34;&gt;Fundamental Limits of Quantum Information Storage&lt;/h2&gt;&#xA;&lt;p&gt;My research sought to deeply understand the capacity of quantum systems under long-term Markovian noise, leading to novel algorithms for capacity computation.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Key Projects &amp;amp; Accomplishments:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Developed structural theorems regarding the capacity of quantum channels over infinite time.&lt;/li&gt;&#xA;&lt;li&gt;Designed a polynomial-time algorithm in Julia achieving 10x performance improvements.&lt;/li&gt;&#xA;&lt;li&gt;Created frameworks addressing infinite-dimensional Hilbert spaces, directly applicable to continuous-variable systems.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;em&gt;(Add more detailed project descriptions, code snippets, or images here&amp;hellip;)&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Quantum Information Group (SUT/UESTC)</title>
+      <link>http://localhost:1313/projects/sut-uestc/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/sut-uestc/</guid>
+      <description>&lt;h2 id=&#34;hybrid-algorithms-for-nisq-devices&#34;&gt;Hybrid Algorithms for NISQ Devices&lt;/h2&gt;&#xA;&lt;p&gt;Focused on constructing robust quantum algorithms specifically targeted at the limitations and capabilities of modern Noisy Intermediate-Scale Quantum hardware.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Key Projects &amp;amp; Accomplishments:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Developed Variational Quantum Eigensolver (VQE) models via Qiskit and PennyLane to simulate the 2D Heisenberg Hamiltonian.&lt;/li&gt;&#xA;&lt;li&gt;Engineered classical-quantum workflows that optimized parametrized circuit architectures.&lt;/li&gt;&#xA;&lt;li&gt;Benchmarked and mitigated noise affecting ground-state energy approximations against classic exact diagonalization results.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;em&gt;(Add more detailed project descriptions, code snippets, or images here&amp;hellip;)&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>University of Tehran / TU Eindhoven</title>
+      <link>http://localhost:1313/projects/tueindhoven/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/tueindhoven/</guid>
+      <description>&lt;h2 id=&#34;machine-learning-for-fluid-dynamics&#34;&gt;Machine Learning for Fluid Dynamics&lt;/h2&gt;&#xA;&lt;p&gt;Pioneered the intersection of complex systems physics and modern Deep Learning by creating predictive models for granular flow.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Key Projects &amp;amp; Accomplishments:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Trained large-scale deep learning models via Keras/TensorFlow for predicting non-linear dynamics of rotating granular mixtures.&lt;/li&gt;&#xA;&lt;li&gt;Integrated computer vision and time-series extraction to dynamically classify phase transitions in physical systems.&lt;/li&gt;&#xA;&lt;li&gt;Built data processing bridges directly from experimental physical setups into ingestible machine learning feature sets.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;em&gt;(Add more detailed project descriptions, code snippets, or images here&amp;hellip;)&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>University of Tehran</title>
+      <link>http://localhost:1313/projects/utehran/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/utehran/</guid>
+      <description>&lt;h2 id=&#34;computational-physics--system-simulation&#34;&gt;Computational Physics &amp;amp; System Simulation&lt;/h2&gt;&#xA;&lt;p&gt;Carried out massive-scale computational simulations using Discrete Element Methods across distributed computing clusters to analyze structural mechanics.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Key Projects &amp;amp; Accomplishments:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Conducted highly parallelized LAMMPS simulations representing over 288,000 core hours of computing effort.&lt;/li&gt;&#xA;&lt;li&gt;Developed pure Python data analytics pipelines processing datasets encompassing over 70,000 individual simulated particles.&lt;/li&gt;&#xA;&lt;li&gt;Created custom statistical tools tracking Radial Distribution Functions (RDF) and executing Adaptive Common Neighbor Analysis.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;em&gt;(Add more detailed project descriptions, code snippets, or images here&amp;hellip;)&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

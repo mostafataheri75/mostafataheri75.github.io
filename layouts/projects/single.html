@@ -1,0 +1,28 @@
+{{ define "main" }}
+<article class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12 mt-16 fade-in">
+  <!-- Back button -->
+  <div class="mb-8">
+    <a href="{{ .Parent.RelPermalink }}" class="text-text-secondary hover:text-accent-primary transition-colors inline-flex items-center text-sm font-medium">
+      <i class="fas fa-arrow-left mr-2"></i>
+      Back to Projects
+    </a>
+  </div>
+
+  {{ if .Params.image }}
+  <div class="w-full aspect-[21/9] rounded-2xl overflow-hidden mb-10 shadow-md">
+    <img src="{{ .Params.image | relURL }}" alt="{{ .Title }}" class="w-full h-full object-cover">
+  </div>
+  {{ end }}
+
+  <header class="mb-10 text-center max-w-3xl mx-auto border-b border-border-primary dark:border-border-primary pb-8">
+    <h1 class="text-4xl md:text-5xl font-bold text-text-primary dark:text-text-primary mb-4 font-heading leading-tight">{{ .Title }}</h1>
+    {{ if .Params.description }}
+    <p class="text-xl text-text-secondary dark:text-text-secondary mb-6">{{ .Params.description }}</p>
+    {{ end }}
+  </header>
+
+  <div class="prose dark:prose-invert prose-lg max-w-none prose-headings:font-heading prose-headings:text-text-primary prose-a:text-accent-primary hover:prose-a:text-accent-hover prose-img:rounded-xl">
+    {{ .Content }}
+  </div>
+</article>
+{{ end }}
