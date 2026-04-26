@@ -7,8 +7,7 @@ intro: >-
 resume_downloads:
   - lang: en
     label: English
-  - lang: fr
-    label: Français
+  
 
 positions:
 
@@ -25,6 +24,7 @@ positions:
       - "Deployed high-throughput LLM inference pipelines using vLLM on NVIDIA A100 GPUs, integrating models like Qwen and Mistral into the ShinkaEvolve framework for real-time code evolution."
       - "Engineered a high-performance verification pipeline using the MOSEK solver to benchmark generated proofs, achieving up to 1000x speedups in solving Semidefinite Programs (SDP) for quantum separability problems."
       - "Demonstrated that AI-discovered heuristics could outperform human-designed decompositions for Entanglement Witness problems, successfully scaling certification to regimes previously intractable for standard solvers."
+      - "Architected the supporting platform as eight containerized services (Python + Julia) on Docker Swarm, with RabbitMQ messaging, PostgreSQL deduplication via SHA-256 content addressing, and a LiteLLM proxy unifying self-hosted vLLM and external APIs."
   - company: "Quantum Information Theory Group (ENS de Lyon)"
     company_url: "https://github.com/mostafataheri75/structure-of-the-peripheral-subspace"
     role: "Lead Researcher & Algorithm Developer"

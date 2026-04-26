@@ -22,7 +22,11 @@
             <div class="flex flex-wrap gap-6 justify-center">
               {{ range $group.skills }}
               <div class="flex flex-col items-center text-center">
-                {{ if .devicon_name }}
+                {{ if .image_url }}
+                  <div class="h-14 flex items-center justify-center mb-2">
+                    <img src="{{ .image_url }}" alt="{{ .name }}" class="h-12 w-12 object-contain" data-animation="skill-icon" />
+                  </div>
+                {{ else if .devicon_name }}
                   {{ $style := .devicon_style | default "plain" }}
                   <div class="h-14 flex items-center justify-center mb-2">
                     <i class="devicon devicon-{{ .devicon_name }}-{{ $style }} colored text-5xl" data-animation="skill-icon"></i>

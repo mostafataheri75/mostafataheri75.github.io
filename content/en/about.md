@@ -3,7 +3,7 @@ title: "About"
 type: "homepage"
 featured_image: "static/images/Mostafa/prof.png"
 intro: >-
-  Hi! I'm Mostafa Taerhi, an **Algorithmic Problem Solver, AI Researcher, and Quantum Expert** 🧩🤖⚛️ with **[10+] years** of experience in computational science and software development. My journey has taken me from **Iran to France**, where I combine deep mathematical reasoning with cutting-edge tech to solve complex problems. Currently, I'm a Lead Researcher at <a href="https://www.inria.fr/en" target="_blank" rel="noopener noreferrer"><strong>Inria / ENS de Lyon</strong></a>, pioneering the use of Large Language Models and Graph Neural Networks to automate mathematical proofs. Recently, I presented my research on quantum information capacities at **QIP 2025** 🏆.
+  Hi! I'm Mostafa TAHERI, an **Algorithmic Problem Solver, AI Researcher, and Quantum Expert** 🧩🤖⚛️ with **[10+] years** of experience in computational science and software development. My journey has taken me from **Iran to France**, where I combine deep mathematical reasoning with cutting-edge tech to solve complex problems. Currently, I'm a Lead Researcher at <a href="https://www.inria.fr/en" target="_blank" rel="noopener noreferrer"><strong>Inria / ENS de Lyon</strong></a>, pioneering the use of Large Language Models and Graph Neural Networks to automate mathematical proofs. Recently, I presented my research on quantum information capacities at **QIP 2025** 🏆.
 
 study: >-
   Currently based in **Lyon, France** 🇫🇷, I'm continually deepening my skills at the intersection of **Artificial Intelligence, Quantum Computing, and Mathematical Reasoning** 🧠. I work heavily with **Python** 🐍, **PyTorch Geometric**, **Julia**, and high-performance **LLM inference pipelines (vLLM, A100 GPUs)** 📊 to build intelligent, high-throughput systems that push the boundaries of algorithmic problem-solving.
@@ -33,7 +33,6 @@ quickfacts:
     value: |
       - 🇬🇧 English (Proficient)
       - 🇮🇷 Persian (Native)
-      - 🇫🇷 French (Beginner)
   - icon: "heart"
     title: "Interests"
     value: |
