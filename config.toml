@@ -144,11 +144,11 @@ sectionPagesMenu = 'main'
     second_color = "#0EA5E9"  # Sky Blue – clear thinking and progress
     third_color = "#F97316"   # Orange – creativity and innovation
   
-  [[params.color_palettes.palette]]
-    name = "midnight"
-    main_color = "#0F172A"    # Midnight Blue – deep and authoritative
-    second_color = "#8B5CF6"  # Purple – innovation and technology
-    third_color = "#06B6D4"   # Cyan – precision and clarity
+  #[[params.color_palettes.palette]]
+  #  name = "midnight"
+  #  main_color = "#0F172A"    # Midnight Blue – deep and authoritative
+  #  second_color = "#8B5CF6"  # Purple – innovation and technology
+  #  third_color = "#06B6D4"   # Cyan – precision and clarity
   
 
 
