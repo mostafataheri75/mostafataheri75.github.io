@@ -90,11 +90,11 @@ sectionPagesMenu = 'main'
 # Multiple color palettes that will be randomly selected on each page load
 # Each palette contains main_color, second_color, and third_color
 [params.color_palettes]
-  [[params.color_palettes.palette]]
-    name = "professional"
-    main_color = "#474A51"    # Graphite Gray – ultra professional, metallic, predominant
-    second_color = "#E52521"  # Mario Red – subtle accent, inspired by Super Mario
-    third_color = "#3CB043"   # Luigi Green – subtle accent, inspired by Luigi
+  #[[params.color_palettes.palette]]
+  #  name = "professional"
+  #  main_color = "#474A51"    # Graphite Gray – ultra professional, metallic, predominant
+  #  second_color = "#E52521"  # Mario Red – subtle accent, inspired by Super Mario
+  #  third_color = "#3CB043"   # Luigi Green – subtle accent, inspired by Luigi
   
   [[params.color_palettes.palette]]
     name = "ocean"
@@ -120,11 +120,11 @@ sectionPagesMenu = 'main'
   #   second_color = "#DC2626"  # Red – passion and energy
   #   third_color = "#F59E0B"   # Amber – warmth and optimism
   
-  [[params.color_palettes.palette]]
-    name = "steel"
-    main_color = "#374151"    # Steel Gray – industrial and reliable
-    second_color = "#6B7280"  # Medium Gray – balanced and professional
-    third_color = "#10B981"   # Emerald – success and precision
+  #[[params.color_palettes.palette]]
+  #  name = "steel"
+  #  main_color = "#374151"    # Steel Gray – industrial and reliable
+  #  second_color = "#6B7280"  # Medium Gray – balanced and professional
+  #  third_color = "#10B981"   # Emerald – success and precision
   
   [[params.color_palettes.palette]]
     name = "navy"
